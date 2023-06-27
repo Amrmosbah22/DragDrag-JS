@@ -1,0 +1,122 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: #333333;
+}
+a{
+    text-decoration: none;
+}
+a{
+    text-align:start;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width: 768px) {
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+h1{
+    margin: 0;
+}
+/* Start Header */
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+}
+.header .input{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.header .input h1{
+    font-size: 25px;
+    color: gray;
+}
+.header .input .data{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+}
+.header .data input{
+    padding: 4px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #7777;
+}
+.header .data button{
+    color: #fff;
+    background-color: #7777;
+    border: none;
+    cursor: pointer;
+    padding: 5px 0;
+    border-radius: 5px;
+    transition: .2s;
+}
+.header .data button:hover{
+    background-color: #36363677;
+}
+.header .list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+}
+.header .list .box{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+.header .list .box .item{
+    padding: 10px;
+    margin: 4px;
+    color: #fff;
+    background-color: #7777;
+    border-radius: 3px;
+    cursor: move;
+}
+.header .list .box h2{
+    text-align: center;
+}
+/* End Header */
